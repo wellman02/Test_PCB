@@ -1,2 +1,2 @@
-# test
- test pcb
+# TEST KiCad
+ Testowe PCB numpada zrobionego w KiCadzie
