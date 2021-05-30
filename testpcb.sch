@@ -1144,4 +1144,101 @@ Text GLabel 4200 6250 2    50   Input ~ 0
 ROW3
 Text GLabel 4200 6150 2    50   Input ~ 0
 ROW4
+$Comp
+L Connector:AVR-ISP-6 J1
+U 1 1 60B2F9FE
+P 5800 4800
+F 0 "J1" H 5471 4896 50  0000 R CNN
+F 1 "AVR-ISP-6" H 5471 4805 50  0000 R CNN
+F 2 "random-keyboard-parts:Reset_Pretty-Mask" V 5550 4850 50  0001 C CNN
+F 3 " ~" H 4525 4250 50  0001 C CNN
+	1    5800 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 4300 5700 4150
+Wire Wire Line
+	5700 5200 5700 5450
+$Comp
+L power:GND #PWR0117
+U 1 1 60B3C1DE
+P 5700 5450
+F 0 "#PWR0117" H 5700 5200 50  0001 C CNN
+F 1 "GND" H 5705 5277 50  0000 C CNN
+F 2 "" H 5700 5450 50  0001 C CNN
+F 3 "" H 5700 5450 50  0001 C CNN
+	1    5700 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0118
+U 1 1 60B3D4A1
+P 5700 4150
+F 0 "#PWR0118" H 5700 4000 50  0001 C CNN
+F 1 "+5V" H 5715 4323 50  0000 C CNN
+F 2 "" H 5700 4150 50  0001 C CNN
+F 3 "" H 5700 4150 50  0001 C CNN
+	1    5700 4150
+	1    0    0    -1  
+$EndComp
+Text GLabel 2700 3650 0    50   Input ~ 0
+RESET
+Text GLabel 6200 4900 2    50   Input ~ 0
+RESET
+Text GLabel 6200 4600 2    50   Input ~ 0
+MISO
+Text GLabel 6200 4700 2    50   Input ~ 0
+MOSI
+Text GLabel 6200 4800 2    50   Input ~ 0
+SCK
+Text GLabel 3900 3950 2    50   Input ~ 0
+MISO
+Text GLabel 3900 3850 2    50   Input ~ 0
+MOSI
+Text GLabel 3900 3750 2    50   Input ~ 0
+SCK
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 60B94DE7
+P 7650 5400
+F 0 "H1" H 7750 5446 50  0000 L CNN
+F 1 "MountingHole" H 7750 5355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 7650 5400 50  0001 C CNN
+F 3 "~" H 7650 5400 50  0001 C CNN
+	1    7650 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 60B9588C
+P 8350 5400
+F 0 "H3" H 8450 5446 50  0000 L CNN
+F 1 "MountingHole" H 8450 5355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 8350 5400 50  0001 C CNN
+F 3 "~" H 8350 5400 50  0001 C CNN
+	1    8350 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60B95EE4
+P 7650 5750
+F 0 "H2" H 7750 5796 50  0000 L CNN
+F 1 "MountingHole" H 7750 5705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 7650 5750 50  0001 C CNN
+F 3 "~" H 7650 5750 50  0001 C CNN
+	1    7650 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 60B9617C
+P 8350 5750
+F 0 "H4" H 8450 5796 50  0000 L CNN
+F 1 "MountingHole" H 8450 5705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 8350 5750 50  0001 C CNN
+F 3 "~" H 8350 5750 50  0001 C CNN
+	1    8350 5750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
